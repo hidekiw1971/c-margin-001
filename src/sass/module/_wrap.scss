@@ -1,7 +1,8 @@
 @use "global" as *;
-.outside {
-  text-align: center;
+.wrap {
   @include mq(md) {
+    display: inline-block;
+    width: rem(1280);
   }
   @include mq(xl) {
   }

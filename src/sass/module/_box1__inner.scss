@@ -1,6 +1,5 @@
 @use "global" as *;
-.outside {
-  text-align: center;
+.box1__inner {
   @include mq(md) {
   }
   @include mq(xl) {

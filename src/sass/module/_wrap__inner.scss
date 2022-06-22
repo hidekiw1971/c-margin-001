@@ -1,0 +1,11 @@
+@use "global" as *;
+.wrap__inner {
+  @include mq(md) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: rem(1280);
+    width: 100%;
+  }
+  @include mq(xl) {
+  }
+}

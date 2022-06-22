@@ -1,0 +1,30 @@
+@use "global" as *;
+.box1 {
+  display: inline-block;
+  // width: rem(200);
+  width: calc(100% / 3 - 25px);
+  min-height: rem(300);
+  background-color: #ff69b4;
+  margin-right: rem(25);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// .box1.off {
+.off {
+  margin-right: rem(0);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.blank {
+  @include mq(md) {
+    background-color: transparent;
+  }
+  @include mq(xl) {
+  }
+}
