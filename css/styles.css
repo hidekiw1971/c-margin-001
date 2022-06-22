@@ -173,8 +173,42 @@ select::-ms-expand {
   display: none;
 }
 
+.box1 {
+  display: inline-block;
+  width: calc(33.33333% - 25px);
+  min-height: 300px;
+  min-height: 18.75rem;
+  background-color: #ff69b4;
+  margin-right: 25px;
+  margin-right: 1.5625rem;
+}
+.off {
+  margin-right: 0px;
+  margin-right: 0rem;
+}
+@media screen and (min-width: 768px) {
+  .blank {
+    background-color: transparent;
+  }
+}
 .outside {
   text-align: center;
-  background-color: #111;
+}
+@media screen and (min-width: 768px) {
+  .wrap__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 80rem;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrap {
+    display: inline-block;
+    width: 80rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
